@@ -1,4 +1,3 @@
-<!-- src/App.vue -->
 <template>
     <NavBar />
     <div id="app" class="container">
@@ -7,7 +6,6 @@
       <GPAWidget class="widget" />
       <ToDoWidget class="widget" />
       <GymWidget class="widget" />
-      <!-- ... other widgets -->
     </div>
   </template>
   
@@ -27,7 +25,7 @@
       ScheduleWidget,
       ToDoWidget,
       GymWidget
-  }
+    }
   }
   </script>
   
