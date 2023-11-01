@@ -1,4 +1,3 @@
-<!-- src/components/WeatherWidget.vue -->
 <template>
   <div class="weather-widget">
     <div class="widget-header">
@@ -17,6 +16,7 @@
 <script>
 import axios from 'axios';
 
+const weather_api_key = process.env.VUE_APP_WEATHER_API_KEY;
 export default {
   data() {
     return {
